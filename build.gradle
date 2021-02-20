@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+apply plugin: 'java'
+buildDir = "$projectDir/gradle_build"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
